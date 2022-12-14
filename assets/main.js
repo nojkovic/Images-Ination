@@ -52,7 +52,7 @@ for(let i=0;i<linkovi.length;i++){
 ispisMeni+="</ul>";
 navigacija.innerHTML=ispisMeni;
 
-if(url=="/image-ination/" || url=="/image-ination/index.html" || url2 == "file:///C:/Users/Sara/Desktop/sajtSara(2)/site-Sara/index.html"){
+if(url=="/Images-Ination/" || url=="/Images-Ination/index.html" || url2 == "file:///C:/Users/Sara/Desktop/sajtSara(2)/site-Sara/index.html"){
     let categorije=document.getElementById("categorije");
     let imenaCategorije=["Categories","Couples","Portrets","Birthday","Weddings","Artist"];
     let ispisCategorije="<ul>";
@@ -64,7 +64,7 @@ if(url=="/image-ination/" || url=="/image-ination/index.html" || url2 == "file:/
 }
 
 
-if(url=="/image-ination/gallerys.html" || url2 == "file:///C:/Users/Sara/Desktop/sajtSara(2)/site-Sara/gallerys.html" || url2 == "file:///C:/Users/Sara/Desktop/sajtSara(2)/site-Sara/gallerys.html#"){
+if(url=="/Images-Ination/gallerys.html" || url2 == "file:///C:/Users/Sara/Desktop/sajtSara(2)/site-Sara/gallerys.html" || url2 == "file:///C:/Users/Sara/Desktop/sajtSara(2)/site-Sara/gallerys.html#"){
     console.log(url);
     window.addEventListener('load',slider);
     
@@ -91,7 +91,7 @@ if(url=="/image-ination/gallerys.html" || url2 == "file:///C:/Users/Sara/Desktop
     }
    
 }
-if(url=="/image-ination/contact.html" || url2=="file:///C:/Users/Sara/Desktop/sajtSara(2)/site-Sara/contact.html" || url2=="file:///C:/Users/Sara/Desktop/sajtSara(2)/site-Sara/contact.html#"){
+if(url=="/Images-Ination/contact.html" || url2=="file:///C:/Users/Sara/Desktop/sajtSara(2)/site-Sara/contact.html" || url2=="file:///C:/Users/Sara/Desktop/sajtSara(2)/site-Sara/contact.html#"){
 console.log
 window.addEventListener('load', () => {
     let dugme = document.getElementById("posalji");
