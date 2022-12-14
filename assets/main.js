@@ -250,7 +250,7 @@ function obradaForme(){
 }
 let objFooterLista2 = document.getElementById("lista-footer2");
 let lista2Linkovi = new Array("index.html","photograph.html","gallerys.html","about.html","contact.html","author.html","document.pdf");
-let lista2Sadrzaj = new Array("HOME","PHOTOGRAPHERS","GALERRY","ABOUT US","CONTACT","AUTOR","DOCUMENTACION");
+let lista2Sadrzaj = new Array("HOME","PHOTOGRAPHERS","GALERRY","ABOUT US","CONTACT","AUTOR","DOCUMENTATION");
 let lista2 = "";
 for(let i =0; i< lista2Linkovi.length;i++){
     lista2 += `<a href="${lista2Linkovi[i]}"><li>${lista2Sadrzaj[i]}</li></a>`;
